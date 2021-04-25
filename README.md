@@ -1,18 +1,17 @@
 <h1>
-  Study of the Poisson random variable 
+  Studio della variabile aleatoria di Poisson 
 </h1> 
 
 <p>
-  This project represents a study conducted on the Poisson random variable; specifically, starting from a limited sample of this population, appropriate inferential statistics techniques were applied, with the aim of extending the measurements obtained to the entire reference population.
-</p>
+Questo progetto rappresenta uno studio della variabile aleatoria di Poisson.
 
-<p>
-The techniques of inferential statistics used are:
+Inizialmente, tale variabile aleatoria è stata simulata in R attraverso opportune tecniche, in modo tale da disporre di un campione significativo di tale popolazione e trarre le opportune evidenze dai risultati ottenuti.
 
+In seguito, sono state applicate tecniche di statistica inferenziale su uno specifico campione, nello specifico:
 <ul>
-  <li>Point estimation;</li>
-  <li>Interval estimation for large samples;</li>
-  <li>Hypothesis testing;</li>
-  <li>Chi-squared test.</li>
+  <li>Stima puntuale (metodo dei momenti, metodo della massima verosimiglianza);</li>
+  <li>Intervalli di fiducia approssimati (metodo di pivot in forma approssimata, confronto tra due popolazioni di Poisson);</li>
+  <li>Verifica delle ipotesi (test statistici per grandi popolazioni);</li>
+  <li>Criterio del chi-quadrato bilaterale.</li>
 </ul>
 </p>
