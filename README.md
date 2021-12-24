@@ -4,7 +4,8 @@
 
 <p>
 Questo progetto rappresenta uno studio della variabile aleatoria di Poisson.
-  
+
+
 Inizialmente, tale variabile aleatoria è stata simulata in R attraverso opportune tecniche, in modo tale da disporre di un campione significativo di tale popolazione e trarre le opportune evidenze dai risultati ottenuti.
 
 In seguito, sono state applicate tecniche di statistica inferenziale su uno specifico campione, nello specifico:
