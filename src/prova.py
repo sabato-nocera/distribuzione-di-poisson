@@ -1,5 +1,7 @@
 from lxml import etree
 
-parser = etree.XMLParser() # Noncompliant
-tree = etree.parse('xxe.xml', parser)
-root = tree1.getroot()
+def parse_file(file_path):
+    parser = etree.XMLParser()  # Sensitive
+    tree = etree.parse(file_path, parser)
+    root = tree.getroot()
+    return root
