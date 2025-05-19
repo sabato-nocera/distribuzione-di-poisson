@@ -1,7 +1,5 @@
-import xml.sax
+from lxml import etree
 
-parser = xml.sax.make_parser()
-myHandler = MyHandler()
-parser.setContentHandler(myHandler)
-parser.setFeature(feature_external_ges, True) # Noncompliant
-parser.parse('xxe.xml')
+parser = etree.XMLParser() # Noncompliant
+tree = etree.parse('xxe.xml', parser)
+root = tree1.getroot()
